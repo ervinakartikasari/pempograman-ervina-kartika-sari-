@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Mini Web App</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Mini Web App 🚀</h1>
+
+      <!-- PROFIL -->
+      <div class="section profile">
+        <h2>Profil Saya</h2>
+
+        <img src="https://i.ibb.co.com/VYbBm9Bh/ervina.jpg" alt="Foto Profil" />
+
+        <p><strong>Nama: Ervina Kartika Sari</strong></p>
+
+        <p>Saya sedang belajar Web Modern 🔥</p>
+
+        <h3>Website Favorit</h3>
+
+        <a href="https://google.com" target="_blank"> 🌐 Kunjungi Google </a>
+      </div>
+
+      <!-- INPUT NAMA -->
+      <div class="section">
+        <h2>Masukkan Nama</h2>
+
+        <input type="text" id="namaInput" placeholder="Ketik nama..." />
+
+        <button onclick="tampilkanNama()">Tampilkan</button>
+
+        <p id="hasilNama"></p>
+      </div>
+
+      <!-- KETIK REAL TIME -->
+      <div class="section">
+        <h2>Ketik Real-Time</h2>
+
+        <input type="text" id="inputKetik" placeholder="Ketik sesuatu..." />
+
+        <p id="output"></p>
+      </div>
+
+      <!-- HOBI -->
+      <div class="section">
+        <h2>Daftar Hobi</h2>
+
+        <input type="text" id="hobiInput" placeholder="Masukkan hobi" />
+
+        <button onclick="tambahHobi()">Tambah</button>
+
+        <button onclick="hapusSemua()">Hapus Semua</button>
+
+        <ul id="listHobi"></ul>
+      </div>
+
+      <!-- API USER -->
+      <div class="section">
+        <h2>Data User API</h2>
+
+        <input type="text" id="searchInput" placeholder="Cari user..." />
+
+        <p id="loading">Loading...</p>
+
+        <p id="error"></p>
+
+        <ul id="dataUser"></ul>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
