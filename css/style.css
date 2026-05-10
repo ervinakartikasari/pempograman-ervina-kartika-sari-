@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #fbcfe8, #dbeafe);
+  margin: 0;
+  padding: 20px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 750px;
+  margin: 40px auto;
+  background: #fffafc;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* JUDUL */
+h1 {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: #7c83fd;
+}
+
+/* CARD */
+.section {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 18px;
+  background: #fef6fb;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* PROFIL */
+.profile {
+  text-align: center;
+}
+
+/* FOTO PROFIL */
+.profile img {
+  width: 110px !important;
+  height: 110px !important;
+
+  object-fit: cover;
+
+  border-radius: 50% !important;
+
+  display: block;
+  margin: 15px auto;
+
+  border: 4px solid #ffd6e7;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* TEKS */
+.profile p {
+  text-align: center;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* LINK */
+a {
+  text-decoration: none;
+  color: #7c83fd;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff7eb3;
+}
+
+/* INPUT */
+input {
+  padding: 12px;
+  width: 70%;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  outline: none;
+  margin-top: 10px;
+}
+
+/* BUTTON */
+button {
+  padding: 12px 18px;
+  border: none;
+  background: #a5b4fc;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #7c83fd;
+}
+
+/* LIST */
+li {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 12px;
+  background: #fdf2f8;
+  border-radius: 12px;
+  list-style: none;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: #ffe4ec;
+}
+
+/* LOADING */
+#loading {
+  font-weight: bold;
+  color: #7c83fd;
+}
+
+/* ERROR */
+#error {
+  color: #ff4d6d;
+  font-weight: bold;
+}
